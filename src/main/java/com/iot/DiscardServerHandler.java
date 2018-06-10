@@ -13,6 +13,8 @@ import io.netty.util.ReferenceCountUtil;
 public class DiscardServerHandler extends ChannelInboundHandlerAdapter { // (1)
 
 	public void channelRead(ChannelHandlerContext ctx, Object msg) {
+
+		//discard service
 		ByteBuf in = (ByteBuf) msg;
 		try {
 			while (in.isReadable()) { // (1)
@@ -22,6 +24,14 @@ public class DiscardServerHandler extends ChannelInboundHandlerAdapter { // (1)
 		} finally {
 			ReferenceCountUtil.release(msg); // (2)
 		}
+
+		//echo service
+//		ctx.write(msg);
+//		ctx.flush();
+
+		//TIME protoclo
+
+
 	}
 
 	public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause)throws Exception  { // (4)
