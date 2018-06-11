@@ -62,6 +62,11 @@ Netty组件和设计
 
 ChannelHandler,ChannelHandlerContext,ChannelPipeline:
     一个ChannelPipeline可以有多个ChannelHandle实例，ctx是handler和pipe之间的桥梁
+    一个channelPipeline中有多个channelHandler时，这些channelHandler中有同样的方法时，只有首个channelHandler中的被执行，后面同名方法要fire才能执行
+    1)handler
+    2)
+    3)
+    
         
 
 

@@ -35,7 +35,9 @@ public class HelloWorldClient {
 							ChannelPipeline p= socketChannel.pipeline();
 							p.addLast("decoder", new StringDecoder());
 							p.addLast("encoder", new StringEncoder());
-							p.addLast(new HelloWorldClientHandler());
+//							p.addLast(new HelloWorldClientHandler());
+							p.addLast(new BaseClient1Handler());
+							p.addLast(new BaseClient2Handler());
 						}
 					});
 
