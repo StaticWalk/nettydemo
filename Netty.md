@@ -63,9 +63,18 @@ Netty组件和设计
 ChannelHandler,ChannelHandlerContext,ChannelPipeline:
     一个ChannelPipeline可以有多个ChannelHandle实例，ctx是handler和pipe之间的桥梁
     一个channelPipeline中有多个channelHandler时，这些channelHandler中有同样的方法时，只有首个channelHandler中的被执行，后面同名方法要fire才能执行
-    1)handler
-    2)
-    3)
+    1)每个handler只需要关注自己要处理的方法
+    2)异常处理，如果 exceptionCaught方法每个handler都重写了，只需有一个类捕捉到然后做处理就可以了，不需要每个handler都处理一遍
+    
+ByteBuf及其常用API    
+   内存分配角度：
+   1)堆内存字节缓冲区：内存分配和回收速度快，可以被JVM自动回收；Socket读写要额外内存复制将堆内存的缓冲区复制到内核Channel中。
+   2)直接内存字节缓冲区：堆外内存分配，分配和回收速度相对慢一点。Socket Channel操作时少一次复制更快。
+   在IO通信线程的读写缓冲区中使用DirectByteBuf，后端业务消息的编解码模式使用HeapByteBuf
+   
+TCP粘包拆包场景(基于C/S的传输模式的特点)
+   
+   
     
         
 
