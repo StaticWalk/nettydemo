@@ -73,6 +73,11 @@ ByteBuf及其常用API
    在IO通信线程的读写缓冲区中使用DirectByteBuf，后端业务消息的编解码模式使用HeapByteBuf
    
 TCP粘包拆包场景(基于C/S的传输模式的特点)
+   package com.iot.TCP_Package;
+   
+ByteToMessageDecoder 常用抽象类编解码器(类实现：DelimiterBasedFrameDecoder、LineBasedFrameDecoder、FixedLengthFrameDecoder)
+    ByteToMessageDecoder ---- ChannelRead 读取通道中的msg
+    
    
    
     

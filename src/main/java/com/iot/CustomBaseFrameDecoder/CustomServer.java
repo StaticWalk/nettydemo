@@ -1,4 +1,4 @@
-package com.iot.TCP_Package;
+package com.iot.CustomBaseFrameDecoder;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -8,21 +8,25 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
-import io.netty.handler.codec.FixedLengthFrameDecoder;
-import io.netty.handler.codec.string.StringDecoder;
 
 import java.net.InetSocketAddress;
 
 /**
  * Created by xiongxiaoyu
  * Data:2018/6/13
- * Time:9:36
+ * Time:22:37
  */
-public class BaseServer {
+public class CustomServer {
+
+	private static final int MAX_FRAME_LENGTH = 1024 * 1024;
+	private static final int LENGTH_FIELD_LENGTH = 4;
+	private static final int LENGTH_FIELD_OFFSET = 2;
+	private static final int LENGTH_ADJUSTMENT = 0;
+	private static final int INITIAL_BYTES_TO_STRIP = 0;
 
 	private int port;
 
-	public BaseServer(int port) {
+	public CustomServer(int port) {
 		this.port = port;
 	}
 
@@ -34,21 +38,9 @@ public class BaseServer {
 					.childHandler(new ChannelInitializer<SocketChannel>() {
 
 						protected void initChannel(SocketChannel ch) throws Exception {
-
-
-							//解决拆包通过 Server的添加LineBasedFrameDecoder这个解码器handler配置参数解决
-							//规定TCP传输的数据最大字节数  如果单次ctx.writeAndFlush(message)报错
-//                            ch.pipeline().addLast(new LineBasedFrameDecoder(2048));
-
-							//按照指定字符对收到帧进行分割 帧末尾指定字符之后的内容会被抛弃 (常用)
-//							ch.pipeline().addLast(new DelimiterBasedFrameDecoder(1024, Unpooled.copiedBuffer("$$__".getBytes())));
-
-							//解决粘包 Server端添加FixedLengthFrameDecoder来拆分帧数据
-							ch.pipeline().addLast(new FixedLengthFrameDecoder(25));
-
-							ch.pipeline().addLast(new StringDecoder());
-							ch.pipeline().addLast(new BaseServerHandler());
-						}
+							ch.pipeline().addLast(new CustomDecoder(MAX_FRAME_LENGTH,LENGTH_FIELD_LENGTH,LENGTH_FIELD_OFFSET,LENGTH_ADJUSTMENT,INITIAL_BYTES_TO_STRIP,false));
+							ch.pipeline().addLast(new CustomServerHandler());
+						};
 
 					}).option(ChannelOption.SO_BACKLOG, 128)
 					.childOption(ChannelOption.SO_KEEPALIVE, true);
@@ -70,7 +62,6 @@ public class BaseServer {
 		} else {
 			port = 8080;
 		}
-		new BaseServer(port).start();
+		new CustomServer(port).start();
 	}
 }
-
