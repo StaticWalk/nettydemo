@@ -1,4 +1,4 @@
-package com.iot.LengthFieldBasedFrameDecoder;
+package com.iot.HeartBeat;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -8,28 +8,25 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import io.netty.handler.codec.string.StringDecoder;
+import io.netty.handler.codec.string.StringEncoder;
+import io.netty.handler.logging.LogLevel;
+import io.netty.handler.logging.LoggingHandler;
+import io.netty.handler.timeout.IdleStateHandler;
 
 import java.net.InetSocketAddress;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by xiongxiaoyu
- * Data:2018/6/13
- * Time:22:37
+ * Data:2018/6/14
+ * Time:15:35
  */
-public class CustomServer {
-
-	private static final int MAX_FRAME_LENGTH = 1024 * 1024;
-	//length的大小 int4个字节
-	private static final int LENGTH_FIELD_LENGTH = 4;
-	//length的起始位置  前面有两个byte
-	private static final int LENGTH_FIELD_OFFSET = 2;
-	//包含本身length长度
-	private static final int LENGTH_ADJUSTMENT = 0;
-	private static final int INITIAL_BYTES_TO_STRIP = 0;
+public class HeartBeatServer {
 
 	private int port;
 
-	public CustomServer(int port) {
+	public HeartBeatServer(int port) {
 		this.port = port;
 	}
 
@@ -37,12 +34,13 @@ public class CustomServer {
 		EventLoopGroup bossGroup = new NioEventLoopGroup(1);
 		EventLoopGroup workerGroup = new NioEventLoopGroup();
 		try {
-			ServerBootstrap sbs = new ServerBootstrap().group(bossGroup,workerGroup).channel(NioServerSocketChannel.class).localAddress(new InetSocketAddress(port))
+			ServerBootstrap sbs = new ServerBootstrap().group(bossGroup,workerGroup).channel(NioServerSocketChannel.class).handler(new LoggingHandler(LogLevel.INFO)).localAddress(new InetSocketAddress(port))
 					.childHandler(new ChannelInitializer<SocketChannel>() {
-
 						protected void initChannel(SocketChannel ch) throws Exception {
-							ch.pipeline().addLast(new CustomDecoder(MAX_FRAME_LENGTH,LENGTH_FIELD_LENGTH,LENGTH_FIELD_OFFSET,LENGTH_ADJUSTMENT,INITIAL_BYTES_TO_STRIP,false));
-							ch.pipeline().addLast(new CustomServerHandler());
+							ch.pipeline().addLast(new IdleStateHandler(5, 0, 0, TimeUnit.SECONDS));
+							ch.pipeline().addLast("decoder", new StringDecoder());
+							ch.pipeline().addLast("encoder", new StringEncoder());
+							ch.pipeline().addLast(new HeartBeatServerHandler());
 						};
 
 					}).option(ChannelOption.SO_BACKLOG, 128)
@@ -65,6 +63,7 @@ public class CustomServer {
 		} else {
 			port = 8080;
 		}
-		new CustomServer(port).start();
+		new HeartBeatServer(port).start();
 	}
+
 }

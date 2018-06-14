@@ -1,4 +1,4 @@
-package com.iot;
+package com.iot.Simple;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;

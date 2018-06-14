@@ -78,6 +78,14 @@ TCP粘包拆包场景(基于C/S的传输模式的特点)
 ByteToMessageDecoder 常用抽象类编解码器(类实现：DelimiterBasedFrameDecoder、LineBasedFrameDecoder、FixedLengthFrameDecoder)
     ByteToMessageDecoder ---- ChannelRead 读取通道中的msg
     
+Netty心跳检测IdleStateHandler extend ChannelDuplexHandler，用来检测远程端是否存活
+     IdleStateHandler(long readerIdleTime, long writerIdleTime, long allIdleTime, TimeUnit unit)使用是在pipe添加handler
+     内置Reader/Writer/ALLIdleTimeoutTask三个线程，其中nextDelay作为超时依据
+     channelRead只做了透传没有操作，channelActive调用initialize-->触发一个Task
+     ---HeartBeat 重写Handler中的userEventTriggered来控制包的发送和接收
+     
+     
+    
    
    
     
