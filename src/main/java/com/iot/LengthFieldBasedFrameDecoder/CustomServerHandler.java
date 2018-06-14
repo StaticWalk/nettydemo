@@ -1,4 +1,4 @@
-package com.iot.CustomBaseFrameDecoder;
+package com.iot.LengthFieldBasedFrameDecoder;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;

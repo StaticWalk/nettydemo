@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aaf381de-be90-4b4c-90a3-cf1c25c724fc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomClientHandler.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomDecoder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomEncoder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomMsg.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomServer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomServerHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../nettydemo/.idea/compiler.xml" />
+    <list default="true" id="aaf381de-be90-4b4c-90a3-cf1c25c724fc" name="Default" comment="add">
       <change beforePath="$PROJECT_DIR$/../nettydemo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../nettydemo/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/Netty.md" afterPath="$PROJECT_DIR$/../nettydemo/Netty.md" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/nettydemo.iml" afterPath="$PROJECT_DIR$/../nettydemo/nettydemo.iml" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/pom.xml" afterPath="$PROJECT_DIR$/../nettydemo/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/TCP_Package/BaseServer.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/TCP_Package/BaseServer.java" />
+      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomClient.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomClient.java" />
+      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomClientHandler.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomClientHandler.java" />
+      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomDecoder.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomDecoder.java" />
+      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomEncoder.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomEncoder.java" />
+      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomMsg.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomMsg.java" />
+      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomServer.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomServer.java" />
+      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomServerHandler.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomServerHandler.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,82 +22,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="BaseServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/TCP_Package/BaseServer.java">
+      <file leaf-file-name="CustomDecoder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomDecoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="253">
+              <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
-                <element signature="e#1014#1737#0" expanded="true" />
-                <element signature="e#1736#1737#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FixedLengthFrameDecoder.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/FixedLengthFrameDecoder.class">
+      <file leaf-file-name="LengthFieldBasedFrameDecoder.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/LengthFieldBasedFrameDecoder.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="11" column="67" lean-forward="false" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
-              <folding>
-                <marker date="1522155699140" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1522155699140" expanded="false" signature="146:240" ph="..." />
-                <marker date="1522155699140" expanded="true" signature="398:614" ph="{...}" />
-                <marker date="1522155699140" expanded="true" signature="722:848" ph="{...}" />
-                <marker date="1522155699140" expanded="true" signature="934:1043" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomMsg.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomMsg.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="64" column="1" lean-forward="false" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-              <folding>
-                <element signature="e#524#525#0" expanded="true" />
-                <element signature="e#542#543#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#679#680#0" expanded="true" />
-                <element signature="e#702#703#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#749#750#0" expanded="true" />
-                <element signature="e#787#788#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
-                <element signature="e#860#861#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-                <element signature="e#920#921#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomDecoder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomDecoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CustomEncoder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomEncoder.java">
+        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomEncoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            <state relative-caret-position="293">
+              <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,24 +56,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomServer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomServer.java">
+      <file leaf-file-name="CustomServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+            <state relative-caret-position="232">
+              <caret line="40" column="54" lean-forward="false" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#845#846#0" expanded="true" />
-                <element signature="e#868#869#0" expanded="true" />
-                <element signature="e#1187#1527#0" expanded="true" />
-                <element signature="e#1526#1527#0" expanded="true" />
+                <element signature="e#851#852#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CustomServerHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomServerHandler.java">
+        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
               <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
@@ -139,69 +83,46 @@
         </entry>
       </file>
       <file leaf-file-name="CustomClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomClient.java">
+        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="35" column="58" lean-forward="false" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
+            <state relative-caret-position="514">
+              <caret line="35" column="43" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1004#1251#0" expanded="true" />
-                <element signature="e#1250#1251#0" expanded="true" />
+                <element signature="e#1010#1296#0" expanded="true" />
+                <element signature="e#1295#1296#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloWorldClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/HelloNetty/HelloWorldClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="36" column="70" lean-forward="true" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloWorldServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/HelloNetty/HelloWorldServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CustomClientHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomClientHandler.java">
+        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ByteToMessageDecoder.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/ByteToMessageDecoder.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="150" column="47" lean-forward="false" selection-start-line="150" selection-start-column="47" selection-end-line="150" selection-end-column="47" />
-              <folding>
-                <marker date="1522155699140" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1522155699140" expanded="false" signature="146:509" ph="..." />
-                <marker date="1522155699140" expanded="false" signature="666:794" ph="cumulate(alloc, cumulation, in) → {" />
-                <marker date="1522155699140" expanded="false" signature="1212:1223" ph="}" />
-                <marker date="1522155699140" expanded="false" signature="1302:1430" ph="cumulate(alloc, cumulation, in) → {" />
-                <marker date="1522155699140" expanded="false" signature="2187:2198" ph="}" />
-                <marker date="1522155699140" expanded="true" signature="2473:2602" ph="{...}" />
-                <marker date="1522155699140" expanded="false" signature="2657:2668" ph=" { " />
-                <marker date="1522155699140" expanded="false" signature="2701:2707" ph=" }" />
-                <marker date="1522155699140" expanded="false" signature="2744:2755" ph=" { " />
-                <marker date="1522155699140" expanded="false" signature="2780:2786" ph=" }" />
-                <marker date="1522155699140" expanded="true" signature="2859:3023" ph="{...}" />
-                <marker date="1522155699140" expanded="true" signature="3085:3294" ph="{...}" />
-                <marker date="1522155699140" expanded="false" signature="3335:3346" ph=" { " />
-                <marker date="1522155699140" expanded="false" signature="3391:3397" ph=" }" />
-                <marker date="1522155699140" expanded="false" signature="3437:3448" ph=" { " />
-                <marker date="1522155699140" expanded="false" signature="3521:3527" ph=" }" />
-                <marker date="1522155699140" expanded="true" signature="3610:4118" ph="{...}" />
-                <marker date="1522155699140" expanded="true" signature="4199:4206" ph="{}" />
-                <marker date="1522155699140" expanded="true" signature="4292:6362" ph="{...}" />
-                <marker date="1522155699140" expanded="true" signature="6459:6726" ph="{...}" />
-                <marker date="1522155699140" expanded="true" signature="6826:6943" ph="{...}" />
-                <marker date="1522155699140" expanded="true" signature="7025:7318" ph="{...}" />
-                <marker date="1522155699140" expanded="true" signature="7368:7525" ph="{...}" />
-                <marker date="1522155699140" expanded="true" signature="7603:7654" ph="{...}" />
-                <marker date="1522155699140" expanded="true" signature="7747:7914" ph="{...}" />
-                <marker date="1522155699140" expanded="true" signature="8025:9546" ph="{...}" />
-                <marker date="1522155699140" expanded="true" signature="9638:9886" ph="{...}" />
-                <marker date="1522155699140" expanded="true" signature="9975:11454" ph="{...}" />
-                <marker date="1522155699140" expanded="true" signature="11675:11763" ph="{...}" />
-                <marker date="1522155699140" expanded="true" signature="11859:12090" ph="{...}" />
-                <marker date="1522155699140" expanded="true" signature="12123:12207" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -252,19 +173,21 @@
         <option value="$PROJECT_DIR$/Netty.md" />
         <option value="$PROJECT_DIR$/Netty.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/iot/HelloNetty/HelloWorldClient.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/TCP_Package/BaseServerHandler.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/TCP_Package/LineBasedFrameDecoder.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/TCP_Package/BaseClientHandler.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/TCP_Package/BaseClient.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/Netty.md" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/TCP_Package/BaseServer.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomMsg.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomDecoder.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomServer.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomServerHandler.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomClient.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomClientHandler.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomEncoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/TCP_Package/BaseServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/TCP_Package/LineBasedFrameDecoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/TCP_Package/BaseClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/TCP_Package/BaseClient.java" />
+        <option value="$PROJECT_DIR$/Netty.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/TCP_Package/BaseServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/CustomBaseFrameDecoder/CustomMsg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/CustomBaseFrameDecoder/CustomDecoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/CustomBaseFrameDecoder/CustomServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/CustomBaseFrameDecoder/CustomServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/CustomBaseFrameDecoder/CustomClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/CustomBaseFrameDecoder/CustomClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/CustomBaseFrameDecoder/CustomEncoder.java" />
+        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomServer.java" />
+        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomClient.java" />
       </list>
     </option>
   </component>
@@ -277,7 +200,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/..//////////maven/apache-maven-3.5.0" />
+        <option name="mavenHome" value="$PROJECT_DIR$/..///////////maven/apache-maven-3.5.0" />
         <option name="userSettingsFile" value="D:\Maven\apache-maven-3.5.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -311,6 +234,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -351,13 +275,21 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="iot" type="462c0819:PsiDirectoryNode" />
-              <item name="CustomBaseFrameDecoder" type="462c0819:PsiDirectoryNode" />
+              <item name="HelloNetty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="iot" type="462c0819:PsiDirectoryNode" />
+              <item name="LengthFieldBasedFrameDecoder" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -386,7 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CustomServer">
+  <component name="RunManager" selected="Application.CustomClient">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -420,7 +352,7 @@
       <envs />
     </configuration>
     <configuration name="CustomClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.iot.CustomBaseFrameDecoder.CustomClient" />
+      <option name="MAIN_CLASS_NAME" value="com.iot.LengthFieldBasedFrameDecoder.CustomClient" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -433,7 +365,7 @@
       <envs />
     </configuration>
     <configuration name="CustomServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.iot.CustomBaseFrameDecoder.CustomServer" />
+      <option name="MAIN_CLASS_NAME" value="com.iot.LengthFieldBasedFrameDecoder.CustomServer" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -528,21 +460,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14123006" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2813212" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2333691" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23658799" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3952164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -574,20 +507,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/time/TimeServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/DiscardServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/DiscardServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="897">
@@ -716,26 +635,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/HelloNetty/HelloWorldServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/HelloWorldConcept.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/HelloNetty/BaseClient2Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -743,9 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -753,19 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/HelloNetty/HelloWorldClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -784,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,9 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" column="85" lean-forward="false" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,23 +685,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="165" column="40" lean-forward="false" selection-start-line="165" selection-start-column="40" selection-end-line="165" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/TCP_Package/LineBasedFrameDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/TCP_Package/LineBasedFrameDecoder.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/channel/ChannelInboundHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="7" column="96" lean-forward="false" selection-start-line="7" selection-start-column="96" selection-end-line="7" selection-end-column="96" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -826,7 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -834,11 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#879#1210#0" expanded="false" />
-            <element signature="e#1209#1210#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -846,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -863,7 +730,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="465.0" y="102.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="465.0" y="103.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -875,7 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="57" column="24" lean-forward="false" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -883,7 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
           <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -891,7 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -900,7 +764,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="356">
             <caret line="77" column="61" lean-forward="false" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="61" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -910,65 +773,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="46" column="75" lean-forward="true" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2750#2751#0" expanded="false" />
-            <element signature="e#2768#2769#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/ByteToMessageDecoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="150" column="47" lean-forward="false" selection-start-line="150" selection-start-column="47" selection-end-line="150" selection-end-column="47" />
-          <folding>
-            <marker date="1522155699140" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1522155699140" expanded="false" signature="146:509" ph="..." />
-            <marker date="1522155699140" expanded="false" signature="666:794" ph="cumulate(alloc, cumulation, in) → {" />
-            <marker date="1522155699140" expanded="false" signature="1212:1223" ph="}" />
-            <marker date="1522155699140" expanded="false" signature="1302:1430" ph="cumulate(alloc, cumulation, in) → {" />
-            <marker date="1522155699140" expanded="false" signature="2187:2198" ph="}" />
-            <marker date="1522155699140" expanded="true" signature="2473:2602" ph="{...}" />
-            <marker date="1522155699140" expanded="false" signature="2657:2668" ph=" { " />
-            <marker date="1522155699140" expanded="false" signature="2701:2707" ph=" }" />
-            <marker date="1522155699140" expanded="false" signature="2744:2755" ph=" { " />
-            <marker date="1522155699140" expanded="false" signature="2780:2786" ph=" }" />
-            <marker date="1522155699140" expanded="true" signature="2859:3023" ph="{...}" />
-            <marker date="1522155699140" expanded="true" signature="3085:3294" ph="{...}" />
-            <marker date="1522155699140" expanded="false" signature="3335:3346" ph=" { " />
-            <marker date="1522155699140" expanded="false" signature="3391:3397" ph=" }" />
-            <marker date="1522155699140" expanded="false" signature="3437:3448" ph=" { " />
-            <marker date="1522155699140" expanded="false" signature="3521:3527" ph=" }" />
-            <marker date="1522155699140" expanded="true" signature="3610:4118" ph="{...}" />
-            <marker date="1522155699140" expanded="true" signature="4199:4206" ph="{}" />
-            <marker date="1522155699140" expanded="true" signature="4292:6362" ph="{...}" />
-            <marker date="1522155699140" expanded="true" signature="6459:6726" ph="{...}" />
-            <marker date="1522155699140" expanded="true" signature="6826:6943" ph="{...}" />
-            <marker date="1522155699140" expanded="true" signature="7025:7318" ph="{...}" />
-            <marker date="1522155699140" expanded="true" signature="7368:7525" ph="{...}" />
-            <marker date="1522155699140" expanded="true" signature="7603:7654" ph="{...}" />
-            <marker date="1522155699140" expanded="true" signature="7747:7914" ph="{...}" />
-            <marker date="1522155699140" expanded="true" signature="8025:9546" ph="{...}" />
-            <marker date="1522155699140" expanded="true" signature="9638:9886" ph="{...}" />
-            <marker date="1522155699140" expanded="true" signature="9975:11454" ph="{...}" />
-            <marker date="1522155699140" expanded="true" signature="11675:11763" ph="{...}" />
-            <marker date="1522155699140" expanded="true" signature="11859:12090" ph="{...}" />
-            <marker date="1522155699140" expanded="true" signature="12123:12207" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/TCP_Package/BaseServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="0">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#672#673#0" expanded="true" />
             <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#1014#1737#0" expanded="true" />
-            <element signature="e#1736#1737#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -987,42 +802,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomEncoder.java">
+    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomMsg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        <state relative-caret-position="589">
+          <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+          <folding>
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="40" column="54" lean-forward="false" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomMsg.java">
+    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/HelloNetty/BaseClient2Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="64" column="1" lean-forward="false" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+        <state relative-caret-position="368">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/string/StringDecoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomServerHandler.java">
+    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
@@ -1032,48 +877,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomClientHandler.java">
+    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomDecoder.java">
+    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/HelloNetty/HelloWorldClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="316">
+          <caret line="36" column="70" lean-forward="true" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/LengthFieldBasedFrameDecoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="35" column="43" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1010#1296#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomClient.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/ByteToMessageDecoder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="35" column="58" lean-forward="false" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1004#1251#0" expanded="true" />
-            <element signature="e#1250#1251#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="138">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/CustomBaseFrameDecoder/CustomServer.java">
+    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/HelloNetty/HelloWorldServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        <state relative-caret-position="115">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#1187#1527#0" expanded="true" />
-            <element signature="e#1526#1527#0" expanded="true" />
           </folding>
         </state>
       </provider>

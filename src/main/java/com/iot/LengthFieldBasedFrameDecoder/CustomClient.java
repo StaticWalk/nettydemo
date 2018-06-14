@@ -1,4 +1,4 @@
-package com.iot.CustomBaseFrameDecoder;
+package com.iot.LengthFieldBasedFrameDecoder;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
@@ -32,6 +32,8 @@ public class CustomClient {
 					.handler(new ChannelInitializer<SocketChannel>() {
 						@Override
 						public void initChannel(SocketChannel ch) throws Exception {
+
+							//C/S模式中，各方都要指定自己的编解码器和Handler
 							ch.pipeline().addLast(new CustomEncoder());
 							ch.pipeline().addLast(new CustomClientHandler());
 						}

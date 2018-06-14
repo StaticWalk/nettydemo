@@ -1,4 +1,4 @@
-package com.iot.CustomBaseFrameDecoder;
+package com.iot.LengthFieldBasedFrameDecoder;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;

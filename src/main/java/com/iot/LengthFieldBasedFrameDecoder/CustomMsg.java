@@ -1,4 +1,4 @@
-package com.iot.CustomBaseFrameDecoder;
+package com.iot.LengthFieldBasedFrameDecoder;
 
 /**
  * Created by xiongxiaoyu
