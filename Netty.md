@@ -84,8 +84,27 @@ Netty心跳检测IdleStateHandler extend ChannelDuplexHandler，用来检测远�
      channelRead只做了透传没有操作，channelActive调用initialize-->触发一个Task
      ---HeartBeat 重写Handler中的userEventTriggered来控制包的发送和接收
      
+AttributeMap
+     绑定在Channel或者ChannelHandlerContext1上的附件
+     ChannelHandlerContext中的AttributeMap是用来绑定Channel与ChannelHandler上下文
      
+     
+ChannelOption的TCP_NODELAY属性设置     
+    bootstap.option(ChannelOption.TCP_NODELAY, true)要求低延迟时禁用nagle算法-----减少数据包发送量来增进TCP/IP网络的性能
     
+    
+NioEventLoopGroup / ServerBootStrap源码
+    
+    channel中维护了一个ChannelFactory,用.class来指定通道传递类型
+    NioEventLoopGroup  
+    1）Netty的server端代码一开始初始化了两个EventLoopGroup，其实就是初始化EventLoop，每一个EventLoop的具体实现就是维护了一个任务队列，一个延迟任务队列，一个thread，并
+    且每一个EventLoop都有一个属于自己的Executor执行器，这样做的好处就是每一个唯一的thread去不停的循环调用，去执行任务队列和延迟任务队列中的task，没有了上下文的切换们还
+    要记得每一个EventLoop还初始化了一个selector，关于selector的创建，netty做了很大的优化，使其与CPU更加亲和（中间还忘记分析了，CPU是2的倍数的时候，Netty的优化，大家可以自己看下）
+    2）关于serverBootstrap的初始化，主要就是做了channel的创建，channel的执行器的绑定，option属性的配置，绑定端口，这些配置好了之后就是channel和selector的绑定，绑定的时候
+    ，顺带启动一些AbstractBootstrap中的thread，让其进行无限循环中
+    3）关于细节
+    ①serverBootstrap中在channelPipeline中偷偷地加了一个ServerBootstrapAcceptor
+    ②serverBootstrap中的boss线程对应的unsafe对象是NioMessageUnsafe实例
    
    
     
