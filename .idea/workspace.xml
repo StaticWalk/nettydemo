@@ -2,56 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaf381de-be90-4b4c-90a3-cf1c25c724fc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../nettydemo/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../nettydemo/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../nettydemo/.idea/libraries/Maven__io_netty_netty_all_5_0_0_Alpha2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../nettydemo/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../nettydemo/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../nettydemo/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../nettydemo/.idea/libraries/Maven__org_jboss_marshalling_jboss_marshalling_1_3_0_CR9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../nettydemo/.idea/libraries/Maven__org_jboss_marshalling_jboss_marshalling_serial_1_3_0_CR9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/FileDownLoad/HttpFileServer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/FileDownLoad/HttpFileServerHandler.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty权威指南/NIO/MultiplexerTimeServer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty权威指南/NIO/TimeServer.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/.idea/libraries/Maven__io_netty_netty_all_4_1_6_Final.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../nettydemo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../nettydemo/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/nettydemo.iml" afterPath="$PROJECT_DIR$/../nettydemo/nettydemo.iml" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/pom.xml" afterPath="$PROJECT_DIR$/../nettydemo/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/AttributeMap/AttributeMapConstant.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/AttributeMap/AttributeMapConstant.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/AttributeMap/HelloWorld2ClientHandler.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/AttributeMap/HelloWorld2ClientHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/AttributeMap/HelloWorldClient.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/AttributeMap/HelloWorldClient.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/AttributeMap/HelloWorldClientHandler.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/AttributeMap/HelloWorldClientHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/AttributeMap/HelloWorldServer.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/AttributeMap/HelloWorldServer.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/AttributeMap/HelloWorldServerHandler.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/AttributeMap/HelloWorldServerHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/AttributeMap/NettyChannel.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/AttributeMap/NettyChannel.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/HeartBeat/HeartBeatClient.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/HeartBeat/HeartBeatClient.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/HeartBeat/HeartBeatClientHandler.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/HeartBeat/HeartBeatClientHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/HeartBeat/HeartBeatServer.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/HeartBeat/HeartBeatServer.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/HeartBeat/HeartBeatServerHandler.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/HeartBeat/HeartBeatServerHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/HelloNetty/BaseClient1Handler.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/HelloNetty/BaseClient1Handler.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/HelloNetty/BaseClient2Handler.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/HelloNetty/BaseClient2Handler.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/HelloNetty/HelloWorldClient.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/HelloNetty/HelloWorldClient.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/HelloNetty/HelloWorldClientHandler.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/HelloNetty/HelloWorldClientHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/HelloNetty/HelloWorldServer.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/HelloNetty/HelloWorldServer.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/HelloNetty/HelloWorldServerHandler.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/HelloNetty/HelloWorldServerHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/HelloWorldConcept.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/HelloWorldConcept.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomClient.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/LengthFieldBasedFrameDecoder/CustomClient.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomClientHandler.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/LengthFieldBasedFrameDecoder/CustomClientHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomDecoder.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/LengthFieldBasedFrameDecoder/CustomDecoder.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomEncoder.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/LengthFieldBasedFrameDecoder/CustomEncoder.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomMsg.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/LengthFieldBasedFrameDecoder/CustomMsg.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomServer.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/LengthFieldBasedFrameDecoder/CustomServer.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomServerHandler.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/LengthFieldBasedFrameDecoder/CustomServerHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Simple/DiscardServer.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/Simple/DiscardServer.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Simple/DiscardServerHandler.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/Simple/DiscardServerHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/TCP_Package/BaseClient.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/TCP_Package/BaseClient.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/TCP_Package/BaseClientHandler.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/TCP_Package/BaseClientHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/TCP_Package/BaseServer.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/TCP_Package/BaseServer.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/TCP_Package/BaseServerHandler.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/TCP_Package/BaseServerHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/time/TimeClient.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/time/TimeClient.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/time/TimeClientHandler.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/time/TimeClientHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/time/TimeServerHandler.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/time/TimeServerHandler.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -601,7 +552,8 @@
     <MESSAGE value="add MTMDcoder" />
     <MESSAGE value="add HeartBeat" />
     <MESSAGE value="add ServerBootstrap + NioEventLoopGroup 源码" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ServerBootstrap + NioEventLoopGroup 源码" />
+    <MESSAGE value="add AIO/BIO/NIO/伪异步" />
+    <option name="LAST_COMMIT_MESSAGE" value="add AIO/BIO/NIO/伪异步" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
