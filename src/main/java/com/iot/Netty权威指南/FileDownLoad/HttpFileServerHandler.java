@@ -1,4 +1,4 @@
-package com.iot.Netty博客学习.FileDownLoad;
+package com.iot.Netty权威指南.FileDownLoad;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;

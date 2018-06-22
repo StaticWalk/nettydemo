@@ -1,4 +1,4 @@
-package com.iot.Netty博客学习.FileDownLoad;
+package com.iot.Netty权威指南.FileDownLoad;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -27,8 +27,13 @@ public class HttpFileServer {
 						@Override
 						protected void initChannel(SocketChannel ch)
 								throws Exception {
+
+							//包含了HttpRequestDecoder和 HttpResponseEncoder
 							ch.pipeline().addLast("http-codec", new HttpServerCodec());
+
+							//HTTP解码器在每个HTTP消息中会生成多个消息对象，aggregator将多个消息转换成FullHttpResponse
 							ch.pipeline().addLast("http-aggregator", new HttpObjectAggregator(65536));
+
 							// 加入chunked 主要作用是支持异步发送的码流（大文件传输），但不占用过多的内存，防止java内存溢出
 							ch.pipeline().addLast("http-chunked", new ChunkedWriteHandler());
 							ch.pipeline().addLast("fileServerHandler", new HttpFileServerHandler(url));

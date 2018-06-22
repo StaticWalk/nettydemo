@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaf381de-be90-4b4c-90a3-cf1c25c724fc" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty权威指南/WebSockket/WebSocketServer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty权威指南/WebSockket/WebSocketServerHandler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../nettydemo/src/main/resources/template/WebSocketServer.html" />
+      <change beforePath="$PROJECT_DIR$/../nettydemo/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../nettydemo/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/../nettydemo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../nettydemo/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/FileDownLoad/HttpFileServer.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty权威指南/FileDownLoad/HttpFileServer.java" />
+      <change beforePath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/FileDownLoad/HttpFileServerHandler.java" afterPath="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty权威指南/FileDownLoad/HttpFileServerHandler.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,106 +20,90 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="HeartBeatClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/HeartBeat/HeartBeatClient.java">
+    <leaf>
+      <file leaf-file-name="HttpFileServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty权威指南/FileDownLoad/HttpFileServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HeartBeatClientHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/HeartBeat/HeartBeatClientHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1079">
-              <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiscardServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/Simple/DiscardServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+            <state relative-caret-position="345">
+              <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#898#1102#0" expanded="true" />
-                <element signature="e#1101#1102#0" expanded="true" />
+                <element signature="e#946#1590#0" expanded="true" />
+                <element signature="e#1589#1590#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiscardServerHandler.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/Simple/DiscardServerHandler.java">
+      <file leaf-file-name="HttpFileServerHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty权威指南/FileDownLoad/HttpFileServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+            <state relative-caret-position="391">
+              <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+              <folding>
+                <element signature="e#903#904#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="method#exceptionCaught#0;class#HttpFileServerHandler#0" expanded="false" />
+                <element signature="method#sendListing#0;class#HttpFileServerHandler#0" expanded="false" />
+                <element signature="method#sendError#0;class#HttpFileServerHandler#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebSocketServer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/resources/template/WebSocketServer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <folding>
+                <element signature="n#style#0;n#textarea#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebSocketServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty权威指南/WebSockket/WebSocketServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#959#1468#0" expanded="true" />
+                <element signature="e#1467#1468#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebSocketServerHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty权威指南/WebSockket/WebSocketServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="61" column="32" lean-forward="false" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DecoderResultProvider.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2-sources.jar!/io/netty/handler/codec/DecoderResultProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloWorld2ClientHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/AttributeMap/HelloWorld2ClientHandler.java">
+      <file leaf-file-name="WebSocketServerHandshakerFactory.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2-sources.jar!/io/netty/handler/codec/http/websocketx/WebSocketServerHandshakerFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloWorldServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/AttributeMap/HelloWorldServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-318">
-              <caret line="29" column="60" lean-forward="false" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/TCP_Package/BaseClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="41" column="50" lean-forward="false" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseClientHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/TCP_Package/BaseClientHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="46" column="75" lean-forward="false" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/TCP_Package/BaseServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseServerHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/TCP_Package/BaseServerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="339">
+              <caret line="140" column="32" lean-forward="false" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -124,6 +114,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -151,6 +142,8 @@
       <find>sendListing</find>
       <find>filp</find>
       <find>flip</find>
+      <find>messageReceived</find>
+      <find>sen</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,11 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/iot/HelloNetty/HelloWorldClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iot/HelloNetty/BaseClient2Handler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iot/HelloNetty/BaseClient1Handler.java" />
-        <option value="$PROJECT_DIR$/Netty.md" />
-        <option value="$PROJECT_DIR$/Netty.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/iot/HelloNetty/HelloWorldClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iot/TCP_Package/BaseServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iot/TCP_Package/LineBasedFrameDecoder.java" />
@@ -190,26 +178,31 @@
         <option value="$PROJECT_DIR$/Netty.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/iot/HeartBeat/HeartBeatClient.java" />
         <option value="$PROJECT_DIR$/Netty.md" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/AttributeMap/HelloWorldServer.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/AttributeMap/HelloWorldServerHandler.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/AttributeMap/HelloWorldClient.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/AttributeMap/NettyChannel.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/AttributeMap/AttributeMapConstant.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/AttributeMap/HelloWorldClientHandler.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/AttributeMap/HelloWorld2ClientHandler.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/HelloNetty/HelloWorldServer.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/Netty.md" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/FileDownLoad/HttpFileServer.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/pom.xml" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomServerHandler.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/FileDownLoad/HttpFileServerHandler.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/time/TimeClient.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/HelloWorldConcept.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty权威指南/NIO/MultiplexerTimeServer.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty权威指南/NIO/TimeServer.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/AttributeMap/HelloWorldClientHandler.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/AttributeMap/HelloWorld2ClientHandler.java" />
-        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/Simple/DiscardServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/AttributeMap/HelloWorldServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/AttributeMap/HelloWorldServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/AttributeMap/HelloWorldClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/AttributeMap/NettyChannel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/AttributeMap/AttributeMapConstant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/AttributeMap/HelloWorldClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/AttributeMap/HelloWorld2ClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/HelloNetty/HelloWorldServer.java" />
+        <option value="$PROJECT_DIR$/Netty.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/FileDownLoad/HttpFileServer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/LengthFieldBasedFrameDecoder/CustomServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/FileDownLoad/HttpFileServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/Netty博客学习/time/TimeClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/Netty博客学习/HelloWorldConcept.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/Netty权威指南/NIO/MultiplexerTimeServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/Netty权威指南/NIO/TimeServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/Netty博客学习/AttributeMap/HelloWorldClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/Netty博客学习/AttributeMap/HelloWorld2ClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iot/Netty博客学习/Simple/DiscardServerHandler.java" />
+        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty权威指南/FileDownLoad/HttpFileServer.java" />
+        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty权威指南/FileDownLoad/HttpFileServerHandler.java" />
+        <option value="$PROJECT_DIR$/../nettydemo/src/main/resources/template/WebSocketServer.html" />
+        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty权威指南/WebSockket/WebSocketServer.java" />
+        <option value="$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty权威指南/WebSockket/WebSocketServerHandler.java" />
       </list>
     </option>
   </component>
@@ -222,7 +215,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/..//////////////maven/apache-maven-3.5.0" />
+        <option name="mavenHome" value="$PROJECT_DIR$/..////////////////maven/apache-maven-3.5.0" />
         <option name="userSettingsFile" value="D:\Maven\apache-maven-3.5.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -255,7 +248,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -297,7 +289,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="iot" type="462c0819:PsiDirectoryNode" />
-              <item name="Netty博客学习" type="462c0819:PsiDirectoryNode" />
+              <item name="Netty权威指南" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nettydemo" type="b2602c69:ProjectViewProjectNode" />
@@ -306,33 +298,40 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="iot" type="462c0819:PsiDirectoryNode" />
-              <item name="Netty博客学习" type="462c0819:PsiDirectoryNode" />
-              <item name="HeartBeat" type="462c0819:PsiDirectoryNode" />
+              <item name="Netty权威指南" type="462c0819:PsiDirectoryNode" />
+              <item name="WebSockket" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nettydemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="nettydemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="iot" type="462c0819:PsiDirectoryNode" />
-              <item name="Netty博客学习" type="462c0819:PsiDirectoryNode" />
-              <item name="Simple" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="SearchEverywhereHistoryKey" value="bytebuffer&#9;PSI&#9;JAVA://java.nio.ByteBuffer&#10;Unsafe&#9;PSI&#9;JAVA://io.netty.channel.Channel.Unsafe&#10;EventLoop&#9;PSI&#9;JAVA://io.netty.channel.EventLoopGroup&#10;AttributeMa&#9;PSI&#9;JAVA://io.netty.util.AttributeMap&#10;idleSt&#9;FILE&#9;jar://D:/Maven/LocalWarehouse/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/timeout/IdleStateHandler.class&#10;IdleStateHan&#9;PSI&#9;JAVA://io.netty.handler.timeout.IdleStateHandler&#10;BTMD&#9;FILE&#9;jar://D:/Maven/LocalWarehouse/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/ByteToMessageDecoder.class&#10;LineBase&#9;PSI&#9;JAVA://io.netty.handler.codec.LineBasedFrameDecoder" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="SearchEverywhereHistoryKey" value="Serializable&#9;FILE&#9;jar://D:/java1/src.zip!/java/io/Serializable.java&#10;serializable&#9;PSI&#9;JAVA://java.io.Serializable&#10;bytebuffer&#9;PSI&#9;JAVA://java.nio.ByteBuffer&#10;Unsafe&#9;PSI&#9;JAVA://io.netty.channel.Channel.Unsafe&#10;EventLoop&#9;PSI&#9;JAVA://io.netty.channel.EventLoopGroup&#10;AttributeMa&#9;PSI&#9;JAVA://io.netty.util.AttributeMap&#10;idleSt&#9;FILE&#9;jar://D:/Maven/LocalWarehouse/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/timeout/IdleStateHandler.class&#10;IdleStateHan&#9;PSI&#9;JAVA://io.netty.handler.timeout.IdleStateHandler&#10;BTMD&#9;FILE&#9;jar://D:/Maven/LocalWarehouse/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/ByteToMessageDecoder.class&#10;LineBase&#9;PSI&#9;JAVA://io.netty.handler.codec.LineBasedFrameDecoder" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -355,7 +354,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DiscardServer">
+  <component name="RunManager" selected="Application.WebSocketServer">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -401,37 +400,37 @@
       <module name="nettydemo" />
       <envs />
     </configuration>
-    <configuration name="HelloWorldClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.iot.AttributeMap.HelloWorldClient" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="nettydemo" />
-      <envs />
-    </configuration>
-    <configuration name="HelloWorldServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.iot.AttributeMap.HelloWorldServer" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="nettydemo" />
-      <envs />
-    </configuration>
     <configuration name="HttpFileServer" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.iot.FileDownLoad.HttpFileServer" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="nettydemo" />
+      <envs />
+    </configuration>
+    <configuration name="HttpFileServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.iot.Netty权威指南.FileDownLoad.HttpFileServer" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="nettydemo" />
+      <envs />
+    </configuration>
+    <configuration name="WebSocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.iot.Netty权威指南.WebSockket.WebSocketServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -488,21 +487,20 @@
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
-    <list size="6">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.HttpFileServer" />
-      <item index="1" class="java.lang.String" itemvalue="Application.HelloWorldServer" />
-      <item index="2" class="java.lang.String" itemvalue="Application.HelloWorldClient" />
-      <item index="3" class="java.lang.String" itemvalue="Application.BaseServer" />
-      <item index="4" class="java.lang.String" itemvalue="Application.BaseClient" />
-      <item index="5" class="java.lang.String" itemvalue="Application.DiscardServer" />
+      <item index="1" class="java.lang.String" itemvalue="Application.BaseServer" />
+      <item index="2" class="java.lang.String" itemvalue="Application.BaseClient" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DiscardServer" />
+      <item index="4" class="java.lang.String" itemvalue="Application.WebSocketServer" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DiscardServer" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BaseClient" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BaseServer" />
-        <item index="3" class="java.lang.String" itemvalue="Application.HelloWorldClient" />
-        <item index="4" class="java.lang.String" itemvalue="Application.HelloWorldServer" />
+        <item index="0" class="java.lang.String" itemvalue="Application.WebSocketServer" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HttpFileServer" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DiscardServer" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BaseClient" />
+        <item index="4" class="java.lang.String" itemvalue="Application.BaseServer" />
       </list>
     </recent_temporary>
   </component>
@@ -516,12 +514,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3929385" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2247854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23927039" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -544,7 +542,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
-      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/../nettydemo" />
     </ignored-roots>
     <MESSAGE value="add discard" />
     <MESSAGE value="博客学习" />
@@ -562,323 +560,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/util/concurrent/EventExecutorChooserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/io.netty.channel.nio.NioEventLoopGroup">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>io.netty.channel.nio.NioEventLoopGroup</OriginalElement>
-          <nodes>
-            <node x="0.0" y="425.0">io.netty.util.concurrent.MultithreadEventExecutorGroup</node>
-            <node x="305.0" y="340.0">io.netty.channel.EventLoopGroup</node>
-            <node x="107.5" y="0.0">java.util.concurrent.Executor</node>
-            <node x="137.5" y="510.0">io.netty.channel.MultithreadEventLoopGroup</node>
-            <node x="42.5" y="170.0">java.util.concurrent.ScheduledExecutorService</node>
-            <node x="12.0" y="340.0">io.netty.util.concurrent.AbstractEventExecutorGroup</node>
-            <node x="167.5" y="255.0">io.netty.util.concurrent.EventExecutorGroup</node>
-            <node x="81.0" y="85.0">java.util.concurrent.ExecutorService</node>
-            <node x="167.5" y="595.0">io.netty.channel.nio.NioEventLoopGroup</node>
-            <node x="317.5" y="170.0">java.lang.Iterable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="io.netty.util.concurrent.EventExecutorGroup" target="java.lang.Iterable">
-              <point x="52.75" y="-17.5" />
-              <point x="325.75" y="230.0" />
-              <point x="376.0" y="230.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="io.netty.util.concurrent.MultithreadEventExecutorGroup" target="io.netty.util.concurrent.AbstractEventExecutorGroup">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="io.netty.channel.MultithreadEventLoopGroup" target="io.netty.util.concurrent.MultithreadEventExecutorGroup">
-              <point x="-67.75" y="-17.5" />
-              <point x="205.25" y="485.0" />
-              <point x="148.5" y="485.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="io.netty.channel.MultithreadEventLoopGroup" target="io.netty.channel.EventLoopGroup">
-              <point x="67.75" y="-17.5" />
-              <point x="340.75" y="485.0" />
-              <point x="397.5" y="485.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="io.netty.util.concurrent.EventExecutorGroup" target="java.util.concurrent.ScheduledExecutorService">
-              <point x="-52.75" y="-17.5" />
-              <point x="220.25" y="230.0" />
-              <point x="170.0" y="230.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="io.netty.util.concurrent.AbstractEventExecutorGroup" target="io.netty.util.concurrent.EventExecutorGroup">
-              <point x="0.0" y="-17.5" />
-              <point x="148.5" y="315.0" />
-              <point x="220.25" y="315.0" />
-              <point x="-52.75" y="17.5" />
-            </edge>
-            <edge source="io.netty.channel.nio.NioEventLoopGroup" target="io.netty.channel.MultithreadEventLoopGroup">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="java.util.concurrent.ExecutorService" target="java.util.concurrent.Executor">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="io.netty.channel.EventLoopGroup" target="io.netty.util.concurrent.EventExecutorGroup">
-              <point x="0.0" y="-17.5" />
-              <point x="397.5" y="315.0" />
-              <point x="325.75" y="315.0" />
-              <point x="52.75" y="17.5" />
-            </edge>
-            <edge source="java.util.concurrent.ScheduledExecutorService" target="java.util.concurrent.ExecutorService">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="245.0" y="316.0" />
-          <SelectedNodes>
-            <node>io.netty.channel.nio.NioEventLoopGroup</node>
-            <node>java.lang.Iterable</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/io.netty.util.concurrent.EventExecutor">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>io.netty.util.concurrent.EventExecutor</OriginalElement>
-          <nodes>
-            <node x="" y="">io.netty.util.concurrent.EventExecutor</node>
-            <node x="" y="">java.util.concurrent.Executor</node>
-            <node x="" y="">java.util.concurrent.ScheduledExecutorService</node>
-            <node x="" y="">io.netty.util.concurrent.EventExecutorGroup</node>
-            <node x="" y="">java.util.concurrent.ExecutorService</node>
-            <node x="" y="">java.lang.Iterable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="196.0" y="187.5" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/util/concurrent/EventExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="73" column="59" lean-forward="true" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
-          <folding>
-            <element signature="e#2693#2822#0" expanded="false" />
-            <element signature="e#2821#2822#0" expanded="false" />
-            <element signature="e#2883#3045#0" expanded="false" />
-            <element signature="e#3044#3045#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="80" column="16" lean-forward="false" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nettydemo/Netty.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="361">
-            <caret line="96" column="4" lean-forward="false" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/io.netty.bootstrap.AbstractBootstrap">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>io.netty.bootstrap.AbstractBootstrap</OriginalElement>
-          <nodes>
-            <node x="" y="">io.netty.channel.Channel</node>
-            <node x="" y="">java.lang.Cloneable</node>
-            <node x="" y="">io.netty.bootstrap.AbstractBootstrap</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="136.5" y="60.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/io.netty.bootstrap.Bootstrap">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>io.netty.bootstrap.Bootstrap</OriginalElement>
-          <nodes>
-            <node x="" y="">io.netty.channel.Channel</node>
-            <node x="" y="">io.netty.bootstrap.Bootstrap</node>
-            <node x="" y="">java.lang.Cloneable</node>
-            <node x="" y="">io.netty.bootstrap.AbstractBootstrap</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="136.5" y="102.5" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/io.netty.channel.socket.nio.NioServerSocketChannel">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>io.netty.channel.socket.nio.NioServerSocketChannel</OriginalElement>
-          <nodes>
-            <node x="279.85416666666674" y="255.0">io.netty.channel.socket.ServerSocketChannel</node>
-            <node x="298.60416666666674" y="85.0">io.netty.channel.Channel</node>
-            <node x="66.25000000000003" y="0.0">io.netty.util.AttributeMap</node>
-            <node x="0.0" y="85.0">io.netty.util.DefaultAttributeMap</node>
-            <node x="448.5" y="0.0">io.netty.channel.ChannelOutboundInvoker</node>
-            <node x="146.50000000000006" y="425.0">io.netty.channel.socket.nio.NioServerSocketChannel</node>
-            <node x="278.5" y="0.0">java.lang.Comparable</node>
-            <node x="61.25000000000003" y="170.0">io.netty.channel.AbstractChannel</node>
-            <node x="48.25000000000003" y="255.0">io.netty.channel.nio.AbstractNioChannel</node>
-            <node x="15.75" y="340.0">io.netty.channel.nio.AbstractNioMessageChannel</node>
-            <node x="304.85416666666674" y="170.0">io.netty.channel.ServerChannel</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="io.netty.channel.socket.nio.NioServerSocketChannel" target="io.netty.channel.nio.AbstractNioMessageChannel">
-              <point x="-60.5" y="-17.5" />
-              <point x="207.00000000000006" y="400.0" />
-              <point x="151.75" y="400.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="io.netty.channel.ServerChannel" target="io.netty.channel.Channel">
-              <point x="0.0" y="-17.5" />
-              <point x="29.75" y="17.5" />
-            </edge>
-            <edge source="io.netty.channel.socket.ServerSocketChannel" target="io.netty.channel.ServerChannel">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="io.netty.util.DefaultAttributeMap" target="io.netty.util.AttributeMap">
-              <point x="0.0" y="-17.5" />
-              <point x="-40.25" y="17.5" />
-            </edge>
-            <edge source="io.netty.channel.nio.AbstractNioChannel" target="io.netty.channel.AbstractChannel">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="io.netty.channel.nio.AbstractNioMessageChannel" target="io.netty.channel.nio.AbstractNioChannel">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="io.netty.channel.socket.nio.NioServerSocketChannel" target="io.netty.channel.socket.ServerSocketChannel">
-              <point x="60.5" y="-17.5" />
-              <point x="328.00000000000006" y="400.0" />
-              <point x="387.85416666666674" y="400.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="io.netty.channel.Channel" target="io.netty.channel.ChannelOutboundInvoker">
-              <point x="39.666666666666686" y="-17.5" />
-              <point x="397.77083333333337" y="60.0" />
-              <point x="572.5" y="60.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="io.netty.channel.Channel" target="java.lang.Comparable">
-              <point x="0.0" y="-17.5" />
-              <point x="358.10416666666674" y="60.0" />
-              <point x="353.5" y="60.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="io.netty.channel.AbstractChannel" target="io.netty.util.DefaultAttributeMap">
-              <point x="-45.25" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="io.netty.channel.Channel" target="io.netty.util.AttributeMap">
-              <point x="-39.66666666666663" y="-17.5" />
-              <point x="318.4375000000001" y="60.0" />
-              <point x="187.00000000000003" y="60.0" />
-              <point x="40.25" y="17.5" />
-            </edge>
-            <edge source="io.netty.channel.AbstractChannel" target="io.netty.channel.Channel">
-              <point x="45.25" y="-17.5" />
-              <point x="197.00000000000003" y="145.0" />
-              <point x="328.35416666666674" y="145.0" />
-              <point x="-29.75" y="17.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-343.5" y="62.5" />
-          <SelectedNodes>
-            <node>io.netty.channel.socket.nio.NioServerSocketChannel</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/channel/nio/NioEventLoopGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="100" column="10" lean-forward="false" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
-          <folding>
-            <element signature="e#1713#1714#0" expanded="false" />
-            <element signature="e#1736#1737#0" expanded="false" />
-            <element signature="e#1986#1987#0" expanded="false" />
-            <element signature="e#2033#2034#0" expanded="false" />
-            <element signature="e#2461#2462#0" expanded="false" />
-            <element signature="e#2530#2531#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/HelloNetty/HelloWorldServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="e#1033#1386#0" expanded="false" />
-            <element signature="e#1385#1386#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -886,7 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="220" column="11" lean-forward="true" selection-start-line="220" selection-start-column="11" selection-end-line="220" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -894,12 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="46" column="3" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
-          <folding>
-            <element signature="e#8761#8762#0" expanded="false" />
-            <element signature="e#8821#8822#0" expanded="false" />
-            <element signature="e#14997#14998#0" expanded="false" />
-            <element signature="e#15025#15026#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -907,10 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="48" column="22" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="22" />
-          <folding>
-            <element signature="e#6219#7260#0" expanded="false" />
-            <element signature="e#7259#7260#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -918,9 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -928,10 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="83" column="42" lean-forward="false" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
-          <folding>
-            <element signature="e#5625#5626#0" expanded="false" />
-            <element signature="e#5684#5685#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -939,10 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="37" column="11" lean-forward="false" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-          <folding>
-            <element signature="e#1300#1301#0" expanded="false" />
-            <element signature="e#1359#1360#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -958,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -966,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -974,34 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/FileDownLoad/HttpFileServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="37" column="90" lean-forward="false" selection-start-line="37" selection-start-column="90" selection-end-line="37" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#946#1464#0" expanded="false" />
-            <element signature="e#1463#1464#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/FileDownLoad/HttpFileServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#903#904#0" expanded="false" />
-            <element signature="e#924#925#0" expanded="false" />
-            <marker date="1529568641813" expanded="true" signature="5256:6588" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1009,10 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding>
-            <element signature="e#1251#1642#0" expanded="false" />
-            <element signature="e#1641#1642#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1020,7 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="26" column="53" lean-forward="true" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,7 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1036,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,7 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,10 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <marker date="1529500433051" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1529500433051" expanded="false" signature="140:227" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1071,7 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1079,7 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="63" column="77" lean-forward="false" selection-start-line="63" selection-start-column="77" selection-end-line="63" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,11 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
           <caret line="86" column="43" lean-forward="true" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#981#982#0" expanded="false" />
-            <element signature="e#1002#1003#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1099,9 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="1054" column="24" lean-forward="true" selection-start-line="1054" selection-start-column="24" selection-end-line="1054" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#55847#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1109,7 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1117,7 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1125,7 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1133,7 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1141,9 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-527">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1151,47 +754,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
           <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/AttributeMap/HelloWorldServer.java">
+    <entry file="jar://$PROJECT_DIR$/../java1/src.zip!/java/io/Serializable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-318">
-          <caret line="29" column="60" lean-forward="false" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
-          <folding />
+        <state relative-caret-position="1190">
+          <caret line="152" column="69" lean-forward="true" selection-start-line="152" selection-start-column="69" selection-end-line="152" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/TCP_Package/BaseClient.java">
+    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/Simple/DiscardServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="41" column="50" lean-forward="false" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/TCP_Package/BaseClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="46" column="75" lean-forward="false" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/TCP_Package/BaseServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/TCP_Package/BaseServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="362">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1199,7 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1207,7 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1079">
           <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1215,19 +789,166 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/AttributeMap/HelloWorldServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="29" column="60" lean-forward="false" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/TCP_Package/BaseClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="41" column="50" lean-forward="false" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/TCP_Package/BaseClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="46" column="75" lean-forward="false" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/TCP_Package/BaseServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/TCP_Package/BaseServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2-sources.jar!/io/netty/channel/ChannelPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="249" column="0" lean-forward="true" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2-sources.jar!/io/netty/handler/codec/http/HttpServerCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="38" column="11" lean-forward="false" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#898#1102#0" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="false" />
+            <element signature="e#1477#1478#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty博客学习/Simple/DiscardServerHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2-sources.jar!/io/netty/buffer/Unpooled.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="283">
+          <caret line="586" column="26" lean-forward="false" selection-start-line="586" selection-start-column="26" selection-end-line="586" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2-sources.jar!/io/netty/handler/codec/http/HttpResponseStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5681">
+          <caret line="261" column="43" lean-forward="false" selection-start-line="261" selection-start-column="43" selection-end-line="261" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty权威指南/FileDownLoad/HttpFileServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#946#1590#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2-sources.jar!/io/netty/channel/SimpleChannelInboundHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="44" column="54" lean-forward="true" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty权威指南/FileDownLoad/HttpFileServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="method#exceptionCaught#0;class#HttpFileServerHandler#0" expanded="false" />
+            <element signature="method#sendListing#0;class#HttpFileServerHandler#0" expanded="false" />
+            <element signature="method#sendError#0;class#HttpFileServerHandler#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/resources/template/WebSocketServer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2-sources.jar!/io/netty/handler/codec/http/DefaultFullHttpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2789">
+          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty权威指南/WebSockket/WebSocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#959#1468#0" expanded="true" />
+            <element signature="e#1467#1468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2-sources.jar!/io/netty/handler/codec/http/websocketx/WebSocketServerHandshakerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="140" column="32" lean-forward="false" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2-sources.jar!/io/netty/handler/codec/DecoderResultProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nettydemo/src/main/java/com/iot/Netty权威指南/WebSockket/WebSocketServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="61" column="32" lean-forward="false" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1309,7 +1030,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: io.netty:netty-all:4.1.6.Final</last-edited>
+          <last-edited>Maven: commons-codec:commons-codec:1.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
