@@ -6,4 +6,8 @@ package com.iot.Netty权威指南.BIO;
  * Time:20:37
  */
 public class Server {
+
+	public static void main(String[] args) {
+
+	}
 }
