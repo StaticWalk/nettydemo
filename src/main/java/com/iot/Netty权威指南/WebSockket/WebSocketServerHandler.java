@@ -1,13 +1,6 @@
 package com.iot.Netty权威指南.WebSockket;
 
 
-import static io.netty.handler.codec.http.HttpHeaderUtil.isKeepAlive;
-import static io.netty.handler.codec.http.HttpHeaderUtil.setContentLength;
-
-import static io.netty.handler.codec.http.HttpHeaders.isKeepAlive;
-import static io.netty.handler.codec.http.HttpHeaders.setContentLength;
-import static io.netty.handler.codec.http.HttpResponseStatus.BAD_REQUEST;
-import static io.netty.handler.codec.http.HttpVersion.HTTP_1_1;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelFuture;
@@ -16,18 +9,16 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.handler.codec.http.DefaultFullHttpResponse;
 import io.netty.handler.codec.http.FullHttpRequest;
-import io.netty.handler.codec.http.FullHttpResponse;
-import io.netty.handler.codec.http.websocketx.CloseWebSocketFrame;
-import io.netty.handler.codec.http.websocketx.PingWebSocketFrame;
-import io.netty.handler.codec.http.websocketx.PongWebSocketFrame;
-import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
-import io.netty.handler.codec.http.websocketx.WebSocketFrame;
-import io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker;
-import io.netty.handler.codec.http.websocketx.WebSocketServerHandshakerFactory;
+import io.netty.handler.codec.http.websocketx.*;
 import io.netty.util.CharsetUtil;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import static io.netty.handler.codec.http.HttpHeaderUtil.isKeepAlive;
+import static io.netty.handler.codec.http.HttpHeaderUtil.setContentLength;
+import static io.netty.handler.codec.http.HttpResponseStatus.BAD_REQUEST;
+import static io.netty.handler.codec.http.HttpVersion.HTTP_1_1;
 
 /**
  * Created by xiongxiaoyu
@@ -62,7 +53,7 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
 								   FullHttpRequest req) throws Exception {
 
 		// 如果HTTP解码失败，返回HHTP异常
-		if (!req.getDecoderResult().isSuccess()
+		if (!req.decoderResult().isSuccess()
 				|| (!"websocket".equals(req.headers().get("Upgrade")))) {
 			sendHttpResponse(ctx, req, new DefaultFullHttpResponse(HTTP_1_1,
 					BAD_REQUEST));
@@ -116,8 +107,8 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
 	private static void sendHttpResponse(ChannelHandlerContext ctx,
 										 FullHttpRequest req, DefaultFullHttpResponse res) {
 		// 返回应答给客户端
-		if (res.getStatus().code() != 200) {
-			ByteBuf buf = Unpooled.copiedBuffer(res.getStatus().toString(),
+		if (res.status().code() != 200) {
+			ByteBuf buf = Unpooled.copiedBuffer(res.status().toString(),
 					CharsetUtil.UTF_8);
 			res.content().writeBytes(buf);
 			buf.release();
@@ -126,7 +117,7 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
 
 		// 如果是非Keep-Alive，关闭连接
 		ChannelFuture f = ctx.channel().writeAndFlush(res);
-		if (!isKeepAlive(req) || res.getStatus().code() != 200) {
+		if (!isKeepAlive(req) || res.status().code() != 200) {
 			f.addListener(ChannelFutureListener.CLOSE);
 		}
 	}

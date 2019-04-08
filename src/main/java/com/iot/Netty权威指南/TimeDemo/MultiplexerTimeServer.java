@@ -1,7 +1,8 @@
-package com.iot.Netty权威指南.NIO;
+package com.iot.Netty权威指南.TimeDemo;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
+import java.nio.ByteBuffer;
 import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 import java.nio.channels.ServerSocketChannel;
@@ -17,9 +18,10 @@ import java.util.Set;
 public class MultiplexerTimeServer implements Runnable{
 
 
-	private Selector selector;
-
+	//1.打开serversocketchannel
 	private ServerSocketChannel servChannel;
+
+	private Selector selector;
 
 	private volatile boolean stop;
 
@@ -71,11 +73,12 @@ public class MultiplexerTimeServer implements Runnable{
 		}
 		//selector关闭后，上面的channel和pipe等资源会被自动注册
 
-		if (selector!=null)
-		try {
-			selector.close();
-		} catch (IOException e) {
-			e.printStackTrace();
+		if (selector!=null) {
+			try {
+				selector.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
 	}
 
@@ -96,6 +99,21 @@ public class MultiplexerTimeServer implements Runnable{
 
 
 			}
+		}
+
+	}
+
+
+
+	private void doWrite(SocketChannel channel,String response) throws IOException {
+
+		if (response !=null && response.trim().length() > 0){
+			byte[] bytes = response.getBytes();
+			ByteBuffer writeBuffer = ByteBuffer.allocate(bytes.length);
+			writeBuffer.put(bytes);
+			writeBuffer.flip();
+			channel.write(writeBuffer);
+
 		}
 
 	}
